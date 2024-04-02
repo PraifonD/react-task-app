@@ -1,0 +1,24 @@
+header {
+    min-height: 40px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.light header {
+    background-color: hsl(240, 5%, 99%);
+}
+.dark header {
+    background-color: hsl(240, 15%, 14%);
+}
+
+.btn__theme {
+    cursor: pointer;
+}
+
